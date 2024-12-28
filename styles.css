@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+*{
+	margin:0px;
+	padding:0px;
+}
+#fav_animal{
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	align-items:center;
+	height:300px;
+	width:180px;
+	border:1px solid grey;
+	
+}
+#fav_animal:hover{
+	box-shadow:10px 10px 5px lightblue;
+}
+#fav_animal>img{
+	padding:10px;
+	height:100px;
+}
+#fav_animal>h4{
+	margin-top:20px;
+}
+#text{
+	align-text:center;
+}
